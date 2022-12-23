@@ -3,15 +3,18 @@
    
     <head>
         <title> Hello </title>
-       <h1>"Using Pull insted of Fetch and Merge"</h1>
+       
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13/dist/vue.js"></script>
         
     </head>
     <body>
-        <div id="app">{{msg}}</div>
-       <p> welcome</p>
+        <div class="container">
+            <h1>"Using Pull insted of Fetch and Merge"</h1>
+             <div  id="app">{{msg}}</div>
+                    <p> welcome</p>
        
-        <div><img src="youngLuffy.png" alt="HI There!" style="width: 90%"></div>
+        <div><img src="youngLuffy.png" alt="HI There!" style="width: 45%"></div>
         <script>
             new Vue({
                 el:"#app",
@@ -20,5 +23,6 @@
                 }
             })
         </script>
+        </div>
     </body>
 </html>
