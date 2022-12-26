@@ -1,4 +1,5 @@
 
+<!DOCTYPE html>
 <html>
    
     <head>
@@ -10,10 +11,11 @@
     </head>
     <body>
         <div class="container">
-            <h1>"Using Pull insted of Fetch and Merge"</h1>
+            <h3>Hi There!</h3>
+            <h1>"I'm Jay</h1>
              <div  id="app">{{msg}}</div>
-                    <p> welcome</p>
-                    <p>Hi  there</p>
+                    <p>Developer</p>
+                    <p>Tech Enthusiast</p>
        
         <div><img src="youngLuffy.png" alt="HI There!" style="width: 45%"></div>
         <script>
